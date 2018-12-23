@@ -1,0 +1,8 @@
+https://blog.craftlab.hu/all-the-new-things-setting-up-webpack-4-with-babel-7-39a5225b8168
+
+moment.js
+
+cdnjs.com
+
+https://medium.com/devschacht/glossary-of-modern-javascript-concepts-1198b24e8f56
+http://kangax.github.io/

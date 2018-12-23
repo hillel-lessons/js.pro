@@ -1,0 +1,54 @@
+#map {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    z-index: 10;
+    width: 400px;
+    background-color: white;
+}
+
+.sidebar .add-marker {
+    display: none;
+}
+
+/* Add mode */
+.sidebar.sidebar--add-mode .btn-add {
+    display: none;
+}
+
+.sidebar.sidebar--add-mode .add-marker {
+    display: block;
+}
+
+/* Edit mode */
+.sidebar__item .sidebar__item-edit,
+.sidebar__item.sidebar__item--edit-mode span,
+.sidebar__item.sidebar__item--edit-mode .sidebar__item-controls {
+    display: none;
+}
+
+.sidebar__item.sidebar__item--edit-mode .sidebar__item-edit {
+    display: block;
+}
+
+.mode-add #map {
+    border: 5px solid red;
+}
+
+.sidebar__item {
+
+}
